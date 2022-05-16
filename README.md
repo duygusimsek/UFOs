@@ -26,7 +26,11 @@ If the user uses the shape filter, the table will update filtering further to on
 Or if they delete the previous entries and enter new filters, the table will be updated by using the new criteria.
 
 ## Summary
+Unfortunately, the webpage that was created is not user-friendly yet. There are a couple of things that need to be improved. 
 
+* The filter table has no enter button. It could be confusing for some users. To prevent that confusion a click-button could be added. 
+* The user has to know a specific date, city, or other criteria in order to make a successful search.  The information table appears empty when a criterion was searched that is not in the dataset. The user should be informed with a message or a search list can be added to the filter table. 
+* The webpage is “case sensitive”, and due to that issue even if the user input matches with the dataset, the user won’t be able to access the result.  The code needs to be updated to accept upper and lower case letters. 
 
 ## Sources
 
